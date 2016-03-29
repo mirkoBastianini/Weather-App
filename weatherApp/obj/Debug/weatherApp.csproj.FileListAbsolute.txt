@@ -1,0 +1,14 @@
+c:\users\mirko\documents\visual studio 2015\Projects\weatherApp\weatherApp\bin\Debug\weatherApp.exe.config
+C:\Users\mirko\Documents\Visual Studio 2015\Projects\weatherApp\weatherApp\bin\Debug\weatherApp.exe
+C:\Users\mirko\Documents\Visual Studio 2015\Projects\weatherApp\weatherApp\bin\Debug\weatherApp.pdb
+C:\Users\mirko\Documents\Visual Studio 2015\Projects\weatherApp\weatherApp\obj\Debug\weatherApp.csprojResolveAssemblyReference.cache
+C:\Users\mirko\Documents\Visual Studio 2015\Projects\weatherApp\weatherApp\obj\Debug\MainWindow.g.cs
+C:\Users\mirko\Documents\Visual Studio 2015\Projects\weatherApp\weatherApp\obj\Debug\App.g.cs
+C:\Users\mirko\Documents\Visual Studio 2015\Projects\weatherApp\weatherApp\obj\Debug\weatherApp_MarkupCompile.cache
+C:\Users\mirko\Documents\Visual Studio 2015\Projects\weatherApp\weatherApp\obj\Debug\weatherApp_MarkupCompile.lref
+C:\Users\mirko\Documents\Visual Studio 2015\Projects\weatherApp\weatherApp\obj\Debug\MainWindow.baml
+C:\Users\mirko\Documents\Visual Studio 2015\Projects\weatherApp\weatherApp\obj\Debug\weatherApp.g.resources
+C:\Users\mirko\Documents\Visual Studio 2015\Projects\weatherApp\weatherApp\obj\Debug\weatherApp.Properties.Resources.resources
+C:\Users\mirko\Documents\Visual Studio 2015\Projects\weatherApp\weatherApp\obj\Debug\weatherApp.csproj.GenerateResource.Cache
+C:\Users\mirko\Documents\Visual Studio 2015\Projects\weatherApp\weatherApp\obj\Debug\weatherApp.exe
+C:\Users\mirko\Documents\Visual Studio 2015\Projects\weatherApp\weatherApp\obj\Debug\weatherApp.pdb

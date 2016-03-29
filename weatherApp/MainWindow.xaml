@@ -1,0 +1,58 @@
+﻿<Window x:Class="weatherApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:weatherApp"
+        mc:Ignorable="d"
+        Title="WeatherApp" Height="384" Width="541.2" ResizeMode="NoResize">
+    <Window.Background>
+        <ImageBrush/>
+    </Window.Background>
+    <Grid>
+        <Grid.Background>
+            <ImageBrush ImageSource="blur.jpg"/>
+        </Grid.Background>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="0*"/>
+            <ColumnDefinition Width="41*"/>
+            <ColumnDefinition Width="20*"/>
+            <ColumnDefinition Width="862*"/>
+        </Grid.ColumnDefinitions>
+        <ComboBox x:Name="comboBox1" Grid.ColumnSpan="4" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="120" BorderBrush="Black" Background="#FF0039BF" Foreground="Black"/>
+        <Button x:Name="button1" Content="Go !" HorizontalAlignment="Left" Margin="99.8,10,0,0" VerticalAlignment="Top" Width="75" Click="button1_Click_1" Grid.Column="3" Foreground="White" Background="#FF0038D4" BorderBrush="White" Height="22"/>
+        <Label x:Name="label2" Content="Location" HorizontalAlignment="Left" Margin="10,58,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.573,0.234" Width="227" Grid.Column="1" Foreground="White" FontSize="24" FontWeight="Bold" Grid.ColumnSpan="3"/>
+        <Label x:Name="label20" Content="Location1" HorizontalAlignment="Left" Margin="10,99,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.573,0.234" Grid.Column="1" Grid.ColumnSpan="3" FontStyle="Italic" FontSize="14.667" Foreground="White"/>
+        <Label x:Name="label1" Content="Temp" HorizontalAlignment="Left" Margin="41.2,140,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.573,0.234" Grid.Column="3" Foreground="White" FontSize="13.333"/>
+        <Label x:Name="label10" Content="F" HorizontalAlignment="Left" Margin="83.2,140,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.573,0.234" Grid.Column="3" Foreground="White" FontSize="13.333"/>
+        <Label x:Name="label3" Content="Condition:" HorizontalAlignment="Left" Margin="10,203,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.573,0.234" Grid.Column="1" Grid.ColumnSpan="3" Foreground="White"/>
+        <Label x:Name="label4" Content="Humidty:" HorizontalAlignment="Left" Margin="10,234,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.573,0.234" Grid.Column="1" Grid.ColumnSpan="3" Foreground="#FFF3EEEE"/>
+        <Label x:Name="label5" Content="Wind Speed:" HorizontalAlignment="Left" Margin="10,264,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.573,0.234" Grid.Column="1" Grid.ColumnSpan="3" Foreground="White"/>
+        <Label x:Name="label6" Content="Label" HorizontalAlignment="Right" Margin="0,203,241.4,0" VerticalAlignment="Top" RenderTransformOrigin="-0.573,0.234" Grid.Column="3" Foreground="White" Width="192" FontWeight="Bold"/>
+        <Label x:Name="label7" Content="Label" HorizontalAlignment="Left" Margin="65.8,233,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.573,0.234" Grid.Column="3" Foreground="#FFFAF6F6" Width="54" FontWeight="Bold"/>
+        <Label x:Name="label8" Content="Label" HorizontalAlignment="Left" Margin="65.8,264,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.573,0.234" Grid.Column="3" Foreground="White" Width="54" FontWeight="Bold"/>
+        <Label x:Name="label11" Content="Label" HorizontalAlignment="Left" Margin="10,315,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.573,0.234" Grid.Column="1" Foreground="White" Grid.ColumnSpan="3" Width="323"/>
+        <Label x:Name="label9" Content="Temp C&#xD;&#xA;" HorizontalAlignment="Left" Margin="10,133,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.573,0.234" Grid.Column="1" Grid.ColumnSpan="3" Foreground="White" FontSize="18.667" FontWeight="Bold" Width="92" Height="34"/>
+        <Button x:Name="button2" Content="Exit" HorizontalAlignment="Left" Margin="413.8,10,0,0" VerticalAlignment="Top" Width="75" Grid.Column="3" Click="button2_Click_1" Background="Red" BorderBrush="White" FontWeight="Bold" Foreground="White" Height="22"/>
+        <Label x:Name="label12" Content="Label" HorizontalAlignment="Left" Margin="333.8,65,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.573,0.234" Grid.Column="3" Foreground="White" Width="101"/>
+        <Label x:Name="label21" Content="Label" HorizontalAlignment="Left" Margin="434.8,70,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.573,0.234" Grid.Column="3" Foreground="Red" Width="54" FontWeight="Bold"/>
+        <Label x:Name="label13" Content="Label" HorizontalAlignment="Left" Margin="333.8,91,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.573,0.234" Grid.Column="3" Foreground="White" Width="101"/>
+        <Label x:Name="label22" Content="Label" HorizontalAlignment="Left" Margin="434.8,91,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.573,0.234" Grid.Column="3" Foreground="#FF06FF00" Width="54" FontWeight="Bold"/>
+        <Label x:Name="label15" Content="Label" HorizontalAlignment="Left" Margin="333.8,135,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.573,0.234" Grid.Column="3" Foreground="White" Width="101"/>
+        <Label x:Name="label24" Content="Label" HorizontalAlignment="Left" Margin="434.8,135,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.573,0.234" Grid.Column="3" Foreground="Red" Width="54" FontWeight="Bold"/>
+        <Label x:Name="label14" Content="Label" HorizontalAlignment="Left" Margin="333.8,161,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.573,0.234" Grid.Column="3" Foreground="White" Width="101"/>
+        <Label x:Name="label23" Content="Label" HorizontalAlignment="Left" Margin="434.8,161,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.573,0.234" Grid.Column="3" Foreground="#FF06FF00" Width="54" FontWeight="Bold"/>
+        <Label x:Name="label17" Content="Label" HorizontalAlignment="Left" Margin="333.8,200,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.573,0.234" Grid.Column="3" Foreground="White" Width="101"/>
+        <Label x:Name="label26" Content="Label" HorizontalAlignment="Left" Margin="434.8,199,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.573,0.234" Grid.Column="3" Foreground="Red" Width="54" FontWeight="Bold"/>
+        <Label x:Name="label16" Content="Label" HorizontalAlignment="Left" Margin="333.8,225,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.573,0.234" Grid.Column="3" Foreground="White" Width="101"/>
+        <Label x:Name="label25" Content="Label" HorizontalAlignment="Left" Margin="434.8,225,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.573,0.234" Grid.Column="3" Foreground="#FF06FF00" Width="54" FontWeight="Bold"/>
+        <Label x:Name="label19" Content="Label" HorizontalAlignment="Left" Margin="333.8,272,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.573,0.234" Grid.Column="3" Foreground="White" Width="101"/>
+        <Label x:Name="label28" Content="Label" HorizontalAlignment="Left" Margin="434.8,272,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.573,0.234" Grid.Column="3" Foreground="Red" Width="54" FontWeight="Bold"/>
+        <Label x:Name="label18" Content="Label" HorizontalAlignment="Left" Margin="333.8,298,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.573,0.234" Grid.Column="3" Foreground="White" Width="101"/>
+        <Label x:Name="label27" Content="Label" HorizontalAlignment="Left" Margin="434.8,297,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.573,0.234" Grid.Column="3" Foreground="#FF06FF00" Width="54" BorderBrush="White" FontWeight="Bold"/>
+        <Label x:Name="label3_Copy" Content="%" HorizontalAlignment="Left" Margin="136.8,234,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.573,0.234" Grid.Column="3" Foreground="White"/>
+        <Label x:Name="label3_Copy1" Content="Km/h" HorizontalAlignment="Left" Margin="136.8,264,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.573,0.234" Grid.Column="3" Foreground="White"/>
+        <Image x:Name="image" Grid.Column="3" HorizontalAlignment="Left" Height="100" Margin="166.8,103,0,0" VerticalAlignment="Top" Width="100"/>
+
+    </Grid>
+</Window>
